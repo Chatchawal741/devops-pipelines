@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./fe-docker
+        working-directory: ./hello-docker
 
     steps:
       - name: Checkout code
