@@ -8,6 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./fe-docker
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
